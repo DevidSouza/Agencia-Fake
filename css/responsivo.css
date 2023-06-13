@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px){
+    .menu{
+        display: none;
+    }
+
+    .barramenu-pai{
+        position: relative;
+    }
+
+    .logo{
+        text-align: center;
+        flex: 100%;
+        margin: 0;
+    }
+
+    .cabecalho{
+        padding-top: 30px;
+    }
+
+    .call-to-action{
+        flex: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+    }
+
+    .contato img{
+        width: 30px;
+    }
+
+    .card{
+        width: 100%;
+    }
+}   

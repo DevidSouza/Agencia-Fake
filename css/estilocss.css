@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;400&family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;400&family=Red+Hat+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body p, h4{
+    color: #453b6e
+}
+
+
+
+.barramenu-pai {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    flex: 20%;
+    color: rgba(31, 13, 90, 0.768);
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    margin-left: 10%;
+    /* border: 1px solid blue; */
+}
+
+.menu {
+    flex: 60%;
+    float: right;
+    text-align: right;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+
+.menu a {
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(31, 13, 90, 0.768);
+    font-family: 'Anuphan', sans-serif;
+}
+
+.menu a:hover {
+    color: rgba(255,192,69,255);
+    border-top: 4px solid rgba(31, 13, 90, 0.768);
+    border-bottom: 4px solid rgba(31, 13, 90, 0.768);
+}
+
+#faleconosco {
+    background-color: rgba(31, 13, 90, 0.768);
+    color: white;
+    padding: 8px 22px;
+    margin-left: 5%;
+}
+
+#faleconosco:hover {
+    background-color: rgba(255,192,69,255);
+    border: none;
+    padding: 10px 24px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    /* border: 2px solid green; */
+    
+}
+
+.call-to-action {
+    color: rgba(31, 13, 90, 0.768);
+    flex: 45%;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+    text-align: left;
+}
+
+#titulo-agenciadigital {
+    font-size: 80px;
+    /* background-color: aqua; */
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+#p-voce-achou-a-melhor {
+    margin-bottom: 0;
+    /* background-color: grey; */
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+
+#botao{
+    color: white;
+    background-color: rgba(255,192,69,255);
+    padding: 12px 12px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#botao:hover{
+    color: white;
+    background-color: rgba(31, 13, 90, 0.768);
+    
+}
+
+.img-headline{
+    /* border:2px solid rgb(0, 156, 156); */
+    flex: 35%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+section{
+    /* border: 1px solid blue; */
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section h2{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: rgba(31, 13, 90, 0.768);
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    width: 30%;
+    border: 2px solid rgba(255,192,69,255);
+    display: inline-block;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgba(255,192,69,255);
+    color: white;
+    padding: 30px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: inline-block; 
+}
+
+
+.card h3{
+    font-weight: bold;
+    color: rgba(31, 13, 90, 0.768);
+}
+
+.card:hover h3{
+    color: white
+}
+
+.card:hover p{
+    color: white
+}
+
+.texto-oculto{
+    display: none;
+}
+
+footer{
+    background-image: linear-gradient(180deg, rgba(20, 9, 55, 0.768), rgba(8, 4, 25, 0.768), black);
+    margin-top: 150px;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    border-top: 4px solid rgba(255,192,69,255);
+}
+
+footer h1{
+    margin-bottom: 0;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer p{
+    color: white;
+    margin-top: 2px;
+}
+
+.contato{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+/* ESTILO PARA AS SEÇÕES DA BARRA DE MENU */
+
+.sobrenos{
+    padding-top: 110px;
+    text-align: justify;
+    width: 50%;
+}
+
+.sobrenos h2, h4 {
+    font-family: 'Roboto', sans-serif;
+}
